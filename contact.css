@@ -1,0 +1,149 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+
+}
+#contactbg{
+    background-image: url(contact1.jpg); background-repeat: no-repeat;
+    background-size: cover;
+    height: 119.2vh;
+    margin-top: -10%;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    z-index: -11;
+    
+    opacity: 0.9;
+}
+
+.contacts-section{
+    margin-top: -53%;
+  min-height: 100vh;
+  opacity: 0.9 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.contacts-info{
+  color: #fff;
+  max-width: 500px;
+  line-height: 65px;
+ 
+  padding-left: 50px;
+  font-size: 18px;
+}
+
+.contacts-info i{
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+.contacts-form{
+  max-width: 700px;
+  margin-right: 50px;
+  opacity: 0.8 !important;
+}
+
+.contacts-info, .contacts-form{
+  flex: 1;
+}
+
+.contacts-form h2{
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-family: 'Oleo Script', cursive;
+}
+
+.contacts-form .text-box{
+  background: rgba(0, 0, 0, 0.527);
+  color: #fcfcfc;
+  border: none;
+  width: calc(46% - 10px);
+  height: 50px;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.contacts-form .text-box:first-child{
+  margin-right: 15px;
+}
+
+.contacts-form textarea{
+  background: rgba(0, 0, 0, 0.527);
+  color: #fcfcfc;
+  border: none;
+  width: 97%;
+  padding: 12px;
+  font-size: 15px;
+  min-height: 200px;
+  max-height: 400px;
+  resize: vertical;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.37);
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.contacts-form .send-btn{
+  float: right;
+  color: #fafafa;
+  background: rgba(0, 0, 0, 0.548);
+  /* background: #fafafa;
+  color: rgba(0, 0, 0, 0.548); */
+  border: none;
+  width: 120px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  transition-property: background;
+}
+
+.contacts-form .send-btn:hover{
+  background: #fafafa;
+  color: rgba(0, 0, 0, 0.548);
+  /* color: #fafafa;
+  background: rgba(0, 0, 0, 0.548); */
+}
+
+@media screen and (max-width: 950px){
+  .contacts-section{
+    flex-direction: column;
+  }
+
+  .contacts-info, .contacts-form{
+    margin: 20px 30px;
+  }
+  .contacts-info{
+    margin: 0px;
+    padding: 5px;
+    font-size: 20px;
+  }
+  .contacts-form h2{
+ 
+    font-size: 30px;
+  }
+
+  .contacts-form .text-box{
+    width: 100%;
+  }
+}
+
+                           
